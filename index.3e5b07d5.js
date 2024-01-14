@@ -1,0 +1,2 @@
+var e=document.querySelector("table");e.querySelectorAll("tbody tr").forEach(function(e){var l=e.cells[1].cloneNode(!0);e.insertBefore(l,e.cells[e.cells.length-1])});var l=e.querySelector("thead tr"),r=e.querySelector("tfoot tr"),t=l.cells[1].cloneNode(!0),c=r.cells[1].cloneNode(!0);l.insertBefore(t,l.cells[l.cells.length-1]),r.insertBefore(c,r.cells[r.cells.length-1]);
+//# sourceMappingURL=index.3e5b07d5.js.map
